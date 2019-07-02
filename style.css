@@ -80,10 +80,20 @@ a {
 /* Body */
 .about{
     margin:20px;
-    padding:20px;
+    padding:20px 20px 50px;
     color:black;
 }
- 
+object {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    border: 0;
+    transition: transform .2s;
+}
+object:hover{
+    transform: scale(2)
+} 
+
 .img-box{
     width:25vw;
     height: auto;
